@@ -43,7 +43,7 @@ while True:
 
             txn_123.add_item([item_nama, item_jumlah, item_harga])
 
-            add_new_item = input("Tambah item baru ke kerangjang? Ya(y) atau Tidak (n)")
+            add_new_item = input("Tambah item baru ke keranjang? Ya(y) atau Tidak (n)")
             if add_new_item.lower() == 'y':
                 pass
             elif add_new_item.lower () == "n" :
@@ -68,7 +68,8 @@ while True:
             print("Jumlah item baru harus diisi dengan angka ya!")
             item_nama = input("Masukkan nama item: ")
             item_jumlah_baru = int(input(f'Masukkan jumlah baru untuk {item_nama}: '))
-            txn_123.update_item_qty(item_nama, item_jumlah_baru)
+        
+        txn_123.update_item_qty(item_nama, item_jumlah_baru)
 
     elif menu == '4' :
         try :
@@ -98,6 +99,6 @@ while True:
         break
 
 txn_123.check_order()
-
 total = txn_123.total_price()
-print(f"Terimakasih {customer_name} telah berbelanja di Supermarket Andi^^")       
+
+print(f"Terimakasih {customer_name} telah berbelanja di Supermarket Andi^^")      
