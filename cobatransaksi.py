@@ -95,6 +95,5 @@ class Transaction:
         else:
             discount = 0
             print(f'Total belanja sebesar Rp. {total}')
-            print(f'Maaf anda belum mendapatkan diskon :( Yuk masukkan barang lagi ke kerangjang!')
-        
+            print(f'Maaf anda belum mendapatkan diskon :( Yuk masukkan barang lagi ke keranjang!')
         
