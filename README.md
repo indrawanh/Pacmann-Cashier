@@ -80,7 +80,7 @@ Project cashier dengan python memudahkan dalam mengelola proses transaksi pembel
 
 ## Video
 Penjelasan dalam bentuk video dapat dilihat pada link berikut
-https://www.youtube.com/channel/UCwFUL7-Lyae8YMiBTMFEM6w
+https://youtu.be/LqpBwoAvES8
 
 
 
